@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+**/logs
+*.logs
+*__pycache__
+*.vscode
+*cache
+node_modules/

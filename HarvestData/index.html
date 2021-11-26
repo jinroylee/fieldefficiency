@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Harvesting Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <link rel="stylesheet" href='public/stylesheets/style.css'>
+  </head>
+  <body>
+    <div class="container">
+    <a href="https://illinois.edu/"><img class="logo" src="public/images/IllinoisLogo.png" alt="Illinois" width="20%" ></a></div>
+    <div class="text-center" style="margin:20px"><h1>Harvesting Data</h1></div>
+    <div id="chartdiv"></div>
+    <div class="text-center">Select local CSV File
+    <input type="file" id="uploadfile" onChange="readImage(this)"></div>
+  </body>
+  <script src='public/javascripts/chart.js'></script>
+  </html>
