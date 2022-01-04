@@ -1,7 +1,5 @@
 ### Field Efficiency Data Visualization ###
-by: Author
-* author persistent email
-* author persistent webpage
+> Jinho Lee (jinhohl2@illinois.edu)
 
 Project director: Richard Sowers
 * <r-sowers@illinois.edu>
@@ -19,8 +17,8 @@ Data is in
 * HarvestData: Creates a user-interactive graph visualization of crop harvest data; uses amChart4
 * Routing: Creates animated visualization of tractor movement in field; uses tripslayer of deck.gl
 
-
-
+## Environment Requirement
+The code has been tested under HTML5.
 
 https://user-images.githubusercontent.com/60732215/143662479-cfbfabe7-b055-4944-aca3-2132c3d51ed6.mp4
 
